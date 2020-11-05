@@ -1,0 +1,27 @@
+{
+  "name": "fuckdomainparkers-api",
+  "version": "1.0.0",
+  "description": "Fuck domain parkers: API to show numbers, domains, and live chat for users https://fuckdomainparkers.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node fdp-api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phobiac01/fuckdomainparkers-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phobiac01/fuckdomainparkers-api/issues"
+  },
+  "homepage": "https://github.com/phobiac01/fuckdomainparkers-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.12",
+    "socket.io": "^2.3.0"
+  }
+}
